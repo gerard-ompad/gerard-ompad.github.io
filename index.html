@@ -111,8 +111,56 @@
               <!-- Insert Publication Here -->
               <!-- Insert Publication Here -->
               <!-- Insert Publication Here -->
-              <!-- Insert Publication Here -->
-              <!-- Insert Publication Here -->
+              <!-- Insert Publication Here: Nicole Heckmann -->
+                            <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dmd'>
+                  <img src='images/arxiv.png' width="160">
+                </div>
+                  <img src='images/arxiv.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function some_name_start() {
+                  document.getElementById('arxiv').style.opacity = "1";
+                }
+
+                function some_name_stop() {
+                  document.getElementById('arxiv').style.opacity = "0";
+                }
+                some_name_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2607.03704">
+                <span class="papertitle">Optimizing Large Language Models for Causality Assessment in Pharmacovigilance: Developing a Performance Metric as Objective for Bayesian Hyperparameter Optimization </span>
+              </a>
+              <br>
+              Nicole Sonne Heckmann, Arnault-Quentin Vermillet, Søren Norlin Mølgaard, Manuela Del Castillo Suero, Lars Melskens, <strong>Gerard Ompad</strong>, <strong>Maurizio Sessa</strong>
+              <br>
+              <em>BMC Pharmacology and Toxicology</em>, 2026
+              <!---<br>--->
+             <!---  <a href="your_project_page_url">Project Page</a> / --->
+              <!--- <a href="your_paper_pdf_url">PDF</a> / --->
+              <!--- <a href="your_code_url">Code</a> --->
+              <p></p>
+              <p>
+                Growing individual case safety report (ICSR) volumes have intensified demand for scalable automated causality assessment. Large Language Models (LLMs) show promise, 
+                yet performance on clinically demanding tasks remains suboptimal and inference-time hyperparameter optimization has not been investigated. 
+                The objective of this study is to develop a Gaussian Process (GP)-compatible optimization objective and investigate whether temperature optimization 
+                improves LLM-expert agreement on Naranjo causality assessment of FAERS ICSRs. Expert causality assessments were performed on 723 stratified FAERS cases. 
+                OpenAI's GPT-5.2 was evaluated using chain-of-thought (CoT) prompting. Four composite metrics were developed: Weighted Cosine Similarity (WCS),
+                Information-Weighted Agreement Score (IWAS), Entropy-Weighted Agreement and Cosine Similarity Score (EWACS), and Consensus-Weighted Cosine Similarity (CWCS) 
+                and Bayesian optimization using a GP surrogate with Probability of Improvement (PoI) acquisition was applied across temperature [0, 2]. 
+                GPT-5.2 outperformed prior biomedical LLMs at baseline (T = 0), achieving 74.1% agreement on question 5 and 65.4% on question 10 of Naranjo algorithm. 
+                Entropy analysis identified these as the sole informative optimization targets. Temperature showed no systematic population-level effect (b = 0.002, p = 0.959). 
+                EWACS-guided Bayesian optimization improved causality classification agreement from 45.0% to 72.0% (+27 pp), with the largest gain in Doubtful cases (+42.9 pp). 
+                EWACS was identified as the optimal GP-compatible metric. The absence of a universal temperature optimum indicates LLM performance is driven primarily 
+                by ICSR content, yet case-specific temperature selection produced meaningful improvements, supporting temperature optimization for LLM-assisted pharmacovigilance..
+              </p>
+            </td>
+          </tr>
+              <!-- Insert Publication Here: BMJ Muscular Dystrophy -->
                             <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
