@@ -138,7 +138,53 @@
             <tbody>
               <!-- Insert Publication Here -->
               <!-- Insert Publication Here -->
-              <!-- Insert Publication Here -->
+              <!-- Insert Publication Here: Rondina -->
+            <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='shapley_twins'>
+                  <img src='images/shapley_twins.png' width="160">
+                </div>
+                  <img src='images/shapley_twins.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function some_name_start() {
+                  document.getElementById('shapley_twins').style.opacity = "1";
+                }
+
+                function some_name_stop() {
+                  document.getElementById('shapley_twins').style.opacity = "0";
+                }
+                some_name_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1145/3820820.3820851">
+                <span class="papertitle">SHapley Additive exPlanations-Enhanced Virtual Twins for Explainable Treatment Effect Estimation</span>
+              </a>
+              <br>
+              Liv Jewel Durana Monsalud, Earl Gabriel Conejos Rondina, <strong>Gerard Ompad</strong>
+              <br>
+              <em>ISMSI '26: Proceedings of the 2026 10th International Conference on Intelligent Systems, Metaheuristics & Swarm Intelligence</em>, 2026
+              <!---<br>--->
+             <!---  <a href="your_project_page_url">Project Page</a> / --->
+              <!--- <a href="your_paper_pdf_url">PDF</a> / --->
+              <!--- <a href="your_code_url">Code</a> --->
+              <p></p>
+              <p>
+                Individualized treatment strategies are critical to enhancing patient outcomes in contemporary clinical environments, where treatment response heterogeneity is the rule 
+                rather than the exception. ITE estimation via machine learning provides a means of tailoring interventions more precisely. This study seeks to improve the explainability
+                of subgroupings by combining Virtual Twins (VT) with Shapley Additive Explanations (SHAP). The VT framework estimates ITE by simulating counterfactual outcomes through 
+                separate predictive models for treated and control populations based on demographic and clinical variables from medical datasets. To address interpretability challenges, 
+                SHAP values were computed to quantify the individual-level influence of each covariate on estimated effects. The integration moves beyond the binary constraints of 
+                traditional decision rules, such as arbitrary thresholds like PRAPACHE > 27.5, by using SHAP beeswarm plots to visualize the continuous directional impact and 
+                magnitude of every data point. This combination not only allowed for the estimation of who benefits most from a specific intervention, but also provided insights into 
+                why the model made certain predictions. The source code for this implementation is 
+                available at: https://github.com/tobsilog/SHapley_Additive_exPlanations-Enhanced_Virtual_Twins_for_Explainable_Treatment_Effect_Estimation.git
+              </p>
+            </td>
+          </tr>
+
               <!-- Insert Publication Here: Andrea Rossi -->
             <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
